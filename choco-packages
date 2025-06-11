@@ -1,5 +1,5 @@
-choco install googlechrome --version 137.0.7151.69 -y
-choco install chocolatey-core.extension --version 1.4.0 -y
+choco install chocolatey-core.extension -y
+choco install googlechrome -y
 choco install chocolateygui --version 2.1.1 -y
 choco install python3 --version 3.13.4 -y
 choco install 7zip --version 24.9.0 -y
@@ -37,3 +37,4 @@ choco install visualstudio2022community --version 117.14.4 -y
 choco install rust --version 1.87.0 -y
 choco install zeal --version 0.7.2 -y
 choco install handbrake --version 1.9.2 -y
+choco install tabby --version 1.0.223 -y
