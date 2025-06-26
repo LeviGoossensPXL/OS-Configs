@@ -1,8 +1,5 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get upgrade
-
 sudo apt-get install flameshot -y # install flameshot
 sudo apt-get install stacer -y # install stacer
 
