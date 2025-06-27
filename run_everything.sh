@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ./run_everything.sh
+source ./setup_ssh.sh
 
 source ./displaylink/install_displaylink.sh
