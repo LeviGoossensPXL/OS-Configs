@@ -10,3 +10,5 @@ source ./displaylink/install_displaylink.sh
 source ./install_chrome.sh
 
 source ./install_nodejs.sh
+
+source ./install_python.sh
