@@ -12,3 +12,5 @@ source ./install_chrome.sh
 source ./install_nodejs.sh
 
 source ./install_python.sh
+
+source ./flameshot/install_flameshot.sh
