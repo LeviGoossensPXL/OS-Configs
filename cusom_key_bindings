@@ -1,0 +1,23 @@
+#!/bin/bash
+
+BEGINNING="gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
+
+KEY_PATH="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings \
+"['$KEY_PATH/custom0/', '$KEY_PATH/custom1/', '$KEY_PATH/custom2/', '$KEY_PATH/custom3/', '$KEY_PATH/custom4/', '$KEY_PATH/custom5/']"
+
+# Take a screenshot of the entire display
+$BEGINNING/custom0/ name "Take screenshot"
+$BEGINNING/custom0/ command "flameshot gui"
+$BEGINNING/custom0/ binding "Print"
+
+# screenshot the current active window
+$BEGINNING/custom1/ name "Lock Screen"
+$BEGINNING/custom1/ command "xdg-screensaver lock"
+$BEGINNING/custom1/ binding "<Super>L"
+
+# Launch Terminal
+$BEGINNING/custom3/ name "Gnome Terminal"
+$BEGINNING/custom3/ command "gnome-terminal"
+$BEGINNING/custom3/ binding "<Super>Q"
