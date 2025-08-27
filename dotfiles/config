@@ -1,0 +1,4 @@
+Host github-LeviGoossensPXL\n
+    HostName github.com\n
+    User LeviGoossensPXL\n
+    IdentityFile ~/.ssh/github-LeviGoossensPXL
