@@ -16,3 +16,5 @@ source ./install_python.sh
 source ./flameshot/install_flameshot.sh
 
 source ./install_eid.sh
+
+source ./deinstall
