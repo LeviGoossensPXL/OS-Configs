@@ -7,3 +7,5 @@ sudo dpkg -i eid-archive_latest.deb
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install eid-mw eid-viewer
+
+firefox https://iamapps.belgium.be/tma
