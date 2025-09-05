@@ -32,6 +32,6 @@ echo "add ssh-key on clipboard to your service or its account"
 echo "Host $service-$username\n
     HostName $hostname\n
     User $username\n
-    IdentityFile ~/.ssh/$filename" >> config
+    IdentityFile ~/.ssh/$filename" >> ~/.ssh/config
 
 echo "ssh-key setup for $filename"
