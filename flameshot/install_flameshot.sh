@@ -2,4 +2,5 @@
 
 sudo apt install flameshot -y
 mkdir -p ~/Pictures/screenshots
-cp flameshot.ini ~/.config/flameshot/flameshot.ini 
+mkdir -p ~/.config/flameshot
+cp ~/OS-Configs/flameshot.ini ~/.config/flameshot/flameshot.ini 

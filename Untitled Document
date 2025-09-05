@@ -1,4 +1,4 @@
 gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 gsettings set org.cinnamon.desktop.interface clock-show-seconds true
-
+gsettings set org.cinnamon.desktop.interface gtk-theme Mint-Y-Dark-Aqua
 
