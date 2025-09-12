@@ -1,2 +1,2 @@
 dconf write /org/cinnamon/desktop/keybindings/media-keys/screensaver "['<Super>l', 'XF86ScreenSaver']"
-dconf write /org/cinnamon/desktop/keybindings/looking-glass-keybinding ""
+dconf write /org/cinnamon/desktop/keybindings/looking-glass-keybinding "['']"
